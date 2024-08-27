@@ -13,11 +13,13 @@ This project predicts the delivery time for food orders based on various feature
 ## Setup Instructions
 1. Clone the repository
 ``` bash
-git clone https://github.com/Gayathri-Selvaganapathi/chatbot_repo.git
-cd chatbot-repo
+git https://github.com/Gayathri-Selvaganapathi/pred_food_delivery_time.git
+cd pred_food_delivery_time
 ```
 
-2. Set up the virtual environment
+2. Unzip the src file
+
+3. Set up the virtual environment
 Use conda to create a virtual environment based on the environment.yml file:
 
 
@@ -32,7 +34,7 @@ Alternatively, use pip to install the dependencies listed in requirements.txt:
 pip install -r requirements.txt
 ```
 
-3. Run the Jupyter Notebook
+4. Run the Jupyter Notebook
 To explore the data and understand the model, open the Jupyter notebook:
 
 ```bash
@@ -40,7 +42,7 @@ Copy code
 jupyter notebook Food-Delivery-Predicting.ipynb
 ```
 
-4. Run the Streamlit App
+5. Run the Streamlit App
 To start the application:
 
 ```bash
